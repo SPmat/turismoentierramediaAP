@@ -8,7 +8,8 @@ public class Usuario {
 
 	List<Atraccion> itinerario = new ArrayList<Atraccion>();
 
-	int indice = 0;
+	// int indice = 0;
+	// Monedas y tiempo libre iniciales?? o hacer un acumulado
 	double monedas=0;
 	double tiempoLibre=0;
 	String atraccionFavorita=" ";
