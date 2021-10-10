@@ -9,6 +9,9 @@ public class Usuario {
 	List<Atraccion> itinerario = new ArrayList<Atraccion>();
 
 	// int indice = 0;
+	
+	
+	
 	// Monedas y tiempo libre iniciales?? o hacer un acumulado
 	double monedas=0;
 	double tiempoLibre=0;
@@ -52,7 +55,15 @@ public class Usuario {
 		this.tiempoLibre-=unaAtraccion.tiempoDeUso;
 	}
 	
+	/*
 	
+	public void agregarAtraccion(Promocion promo) {
+		this.itinerario.add(unaAtraccion);
+		this.monedas-=unaAtraccion.valor;
+		this.tiempoLibre-=unaAtraccion.tiempoDeUso;
+	}
+	
+	*/
 
 
 	//Responde verdadero si tiene las monedas y el tiempo suficiente ----> Verdadero, tengo dinero y tiempo para ir a...
